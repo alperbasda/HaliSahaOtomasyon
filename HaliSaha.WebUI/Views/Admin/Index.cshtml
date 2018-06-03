@@ -1,0 +1,179 @@
+﻿@model List<HaliSaha.Entity.Concrete.Rezervasyon>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/AdminCss.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <link href="~/Content/jquery.fancybox.css" rel="stylesheet" />
+    <title>Admin Panel</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="form-group">
+            <a class="btn btn-danger col-lg-12" href="@Url.Action("LogOut","Admin")">Çıkış</a>
+        </div><br /><br />
+        <div class="form-group">
+            <button class="btn btn-info col-lg-12" onclick="rezervasyon()">Yeni Rezervasyon</button>
+            <br /><br />
+            <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Numaraya Göre Ara...">
+
+        </div>
+    </div>
+    <div class="row">
+        <table id="myTable">
+            <tr class="header">
+                <th>Telefon</th>
+                <th>Mail</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Saha</th>
+                <th>Tarih</th>
+                <th>Fiyat</th>
+                <th>Sil</th>
+            </tr>
+            @foreach (var rezervasyon in Model)
+            {
+                <tr>
+                    <td>@rezervasyon.Musteri.Telefon</td>
+                    <td>@rezervasyon.Musteri.MailAdresi</td>
+                    <td>@rezervasyon.Musteri.Ad</td>
+                    <td>@rezervasyon.Musteri.Soyad</td>
+                    <td>@rezervasyon.Saha.Name</td>
+                    <td>@rezervasyon.Tarih</td>
+                    <td>@rezervasyon.Saha.Fiyat</td>
+                    <td><i class="fa fa-remove" data-id="@rezervasyon.Id" style="cursor: pointer;color:red" onclick="remove(this)"></i></td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    <br/><br/>
+    <div class="row">
+        <section>
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center wow animated fadeInDown">
+                        <h2>Fotografları Düzenle</h2>
+                    </div>
+                    <ul class="project-wrapper wow animated fadeInUp">
+                        @for (int i = 1; i < 7; i++)
+                        {
+
+                            <li class="portfolio-item">
+                                <img src="@Url.Content("~/Content/UploadedImage/"+i+".jpg")" class="img-responsive" alt="Fotoğraf @i">
+
+                                <ul class="external">
+                                    <li><a class="fancybox" title="Saha" onclick="openModal(@i)" data-fancybox-group="works"><i class="fa fa-edit"></i></a></li>
+                                </ul>
+                            </li>
+
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</div>
+    
+
+    <div class="modal fade" id="resimModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Resim Yükle</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="file" name="fileToUpload" id="fileToUpload">
+                    </div>
+                    <div class="progress">
+                        <div id="myprogress" class="progress-bar" role="progressbar" aria-valuenow="0"
+                             aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            0%
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                    <button type="submit" id="BtnYukle" class="btn btn-primary">Yukle</button>
+                </div>
+
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+<div class="modal fade" id="RezerveModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Rezerve İşlemi</h4>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label>Isim :</label>
+                        <input type="text" class="form-control" name="musteriAd" id="musteriAd">
+                    </div>
+                    <div class="form-group">
+                        <label>Soyad :</label>
+                        <input type="text" class="form-control" name="musteriSoyad" id="musteriSoyad">
+                    </div>
+                    <div class="form-group">
+                        <label>Telefon :</label>
+                        <input type="tel" class="form-control" name="telefon" id="telefon">
+                    </div>
+                    <div class="form-group">
+                        <label>E-Posta :</label>
+                        <input type="email" class="form-control" name="mail" id="mail">
+                    </div>
+                    <div class="form-group">
+                        <label>Tarih :</label>
+                        <input type="date" class="form-control" name="tarih" id="tarih">
+                    </div>
+                    <div class="form-group">
+                        <label>SahaId(1,2,3 giriniz) :</label>
+                        <input type="text" class="form-control" name="sahaId" id="sahaId">
+                    </div>
+                    <div class="form-group">
+                        <label>Saat :</label>
+                        <input type="time" class="form-control" name="saat" id="saat">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                    <button type="submit" id="BtnRezerve" class="btn btn-primary">Rezerve Et</button>
+                </div>
+
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.fancybox.pack.js"></script>
+    <script src="~/Scripts/AdminJs.js"></script>
+</body>
+</html>
+

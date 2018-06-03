@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/AdminLogin.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="login-page">
+    <div class="form">
+        <form class="login-form" method="post">
+            <input type="text" placeholder="Kullanıcı Adı" name="kadi"/>
+            <input type="password" placeholder="Şifre" name="sifre"/>
+            <button type="submit">Giriş</button>
+        </form> 
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.message a').click(function() {
+        $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+    });
+</script>
+</body>
+</html>

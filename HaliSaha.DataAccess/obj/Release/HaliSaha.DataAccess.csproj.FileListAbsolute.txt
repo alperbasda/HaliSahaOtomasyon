@@ -1,0 +1,17 @@
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.DataAccess.dll.config
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.DataAccess.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.DataAccess.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\EntityFramework.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.Core.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.Entity.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.Core.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\HaliSaha.Entity.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\EntityFramework.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\obj\Release\HaliSaha.DataAccess.csprojResolveAssemblyReference.cache
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\obj\Release\HaliSaha.DataAccess.Migrations.first.resources
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\obj\Release\HaliSaha.DataAccess.Migrations.s.resources
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\obj\Release\HaliSaha.DataAccess.csproj.GenerateResource.Cache
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\obj\Release\HaliSaha.DataAccess.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.DataAccess\obj\Release\HaliSaha.DataAccess.pdb

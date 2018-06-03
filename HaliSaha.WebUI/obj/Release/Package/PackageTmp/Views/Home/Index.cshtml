@@ -1,0 +1,150 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<main class="site-content" role="main">
+
+    <!--
+    Home Slider
+    ==================================== -->
+
+    <section id="home-slider">
+        <div id="slider" class="sl-slider-wrapper">
+
+            <div class="sl-slider">
+                <div class="sl-slide">
+                    <div class="bg-img bg-img-1"></div>
+                    <div class="slide-caption">
+                        <div class="caption-content">
+                            <h2 class="animated fadeInDown">Bla Bla Halı Saha</h2>
+                            <span class="animated fadeInDown">Kütahya'nın en iyisi</span>
+                            <a href="#portfolio" class="btn btn-blue btn-effect">Rezervasyon yapın</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /slider-wrapper -->
+    </section>
+
+    <!--
+    End Home SliderEnd
+    ==================================== -->
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow animated fadeInRight">
+                    <div class="welcome-block">
+                        <h3>Sitemize Hoşgeldiniz</h3>
+                        <div class="message-body">
+                            <img src="~/Content/img/member-1.jpg" class="pull-left" alt="member">
+                            <p>Web sitemiz üzerinden hemen halı saha rezervasyonunuzu yapabilir veya sayfanın altında bulunan numaradan bize ulaşabilirsiniz.</p>
+                        </div>
+                        <a href="#contact" class="btn btn-border btn-effect pull-right">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+    <!-- portfolio section -->
+    <section id="portfolio" style="margin-bottom: 200px">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center wow animated fadeInDown">
+                    <h2>Rezervasyon</h2>
+                    <p>Hemen rezervasyon yapmak için form oluşturabilirsiniz</p>
+                    <br />
+                    <div class='input-group date' id='Mypicker'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                    <br/>
+                    <button type="button" class="btn btn-blue btn-effect2" id="Sorgula">Sorgula</button>
+                </div>
+            </div>
+            <br/>
+            <div id="sonuc"></div>
+        </div>
+
+    </section>
+    <!-- end portfolio section -->
+    <!-- Testimonial section -->
+
+    <section id="google-map">
+        <div id="map-canvas" class="wow animated fadeInUp"></div>
+    </section>
+
+    <!-- end Testimonial section -->
+    <!-- Social section -->
+    <section id="social" class="parallax">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center white wow animated fadeInDown">
+                        <h2>Bizi Takip Edin</h2>
+                        <p>İndirim ve Kampanyalarımız için takipte kalın...</p>
+                    </div>
+
+                    <ul class="social-button">
+                        <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://www.youtube.com"><i class="fa fa-youtube fa-3x"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Social section -->
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="sec-title text-center wow animated fadeInDown">
+                    <h2>İletişim</h2>
+                    <p>Yorumlarınız bizim için önemli</p>
+                </div>
+
+
+                <div class="col-md-7 contact-form wow animated fadeInLeft">
+                    <form action="#" method="post">
+                        <div class="input-field">
+                            <input type="text" name="name" class="form-control" placeholder="İsminizi Yazın...">
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="email" class="form-control" placeholder="Mail Adresinizi Yazın...">
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="subject" class="form-control" placeholder="Konu Yazın...">
+                        </div>
+                        <div class="input-field">
+                            <textarea name="message" class="form-control" placeholder="Mesajınızı Yazın..."></textarea>
+                        </div>
+                        <button type="submit" id="submit" class="btn btn-blue btn-effect">Gönder</button>
+                    </form>
+                </div>
+
+                <div class="col-md-5 wow animated fadeInRight">
+                    <address class="contact-details">
+                        <h3>ıletişim bilgileri</h3>
+                        <p><i class="fa fa-pencil"></i>Bla bla halı saha<span>Adnan Menderes Bulvarı No:46/1</span> <span>Kütahya.</span></p><br>
+                        <p><i class="fa fa-phone"></i>+90 555 555 55 55</p>
+                        <p><i class="fa fa-envelope"></i>blablahalısaha@gmail.com</p>
+                    </address>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end Contact section -->
+
+</main>
+
+@section scripts
+{
+<script src="~/Scripts/SorguJs.js"></script>
+}

@@ -1,0 +1,9 @@
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\HaliSaha.Core.dll.config
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\HaliSaha.Core.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\HaliSaha.Core.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\EntityFramework.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\EntityFramework.SqlServer.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\EntityFramework.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\bin\Release\EntityFramework.SqlServer.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\obj\Release\HaliSaha.Core.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.Core\obj\Release\HaliSaha.Core.pdb

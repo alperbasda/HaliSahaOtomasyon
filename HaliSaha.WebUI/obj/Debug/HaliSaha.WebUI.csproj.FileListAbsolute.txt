@@ -1,0 +1,120 @@
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\ApplicationInsights.config
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\csc.exe
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\System.Collections.Immutable.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\vbc.exe
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\VBCSCompiler.exe
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\roslyn\VBCSCompiler.exe.config
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.WebUI.dll.config
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.WebUI.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.WebUI.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Antlr3.Runtime.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.DependencyCollector.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.Web.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.WindowsServer.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.ApplicationInsights.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Newtonsoft.Json.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Helpers.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Mvc.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Optimization.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Razor.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Deployment.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Razor.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\WebGrease.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.DependencyCollector.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.Web.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.WindowsServer.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.ApplicationInsights.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Helpers.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Mvc.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Optimization.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.Razor.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Deployment.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Razor.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Antlr3.Runtime.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\Newtonsoft.Json.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\obj\Debug\HaliSaha.WebUI.csprojResolveAssemblyReference.cache
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\obj\Debug\HaliSaha.WebUI.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\obj\Debug\HaliSaha.WebUI.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.DataAccess.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Entity.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Core.dll
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.DataAccess.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\EntityFramework.xml
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Entity.pdb
+c:\Users\alper\documents\visual studio 2015\Projects\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Core.pdb
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\ApplicationInsights.config
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\csc.exe
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\vbc.exe
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.WebUI.dll.config
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.WebUI.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.WebUI.pdb
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Core.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.DataAccess.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Entity.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Helpers.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Mvc.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Optimization.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Razor.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\WebGrease.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Core.pdb
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.DataAccess.pdb
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\HaliSaha.Entity.pdb
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\EntityFramework.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Helpers.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Mvc.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Optimization.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.Razor.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\obj\Debug\HaliSaha.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\obj\Debug\HaliSaha.WebUI.dll
+C:\Users\alper\Desktop\HaliSaha\HaliSaha.WebUI\obj\Debug\HaliSaha.WebUI.pdb

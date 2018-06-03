@@ -1,0 +1,262 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div id="loading" style="display: none;">
+    <p><img id="loading-image" src="~/Content/img/Emoji/loader.gif" /> Lütfen Bekleyin</p>
+</div>
+<main class="site-content" role="main">
+
+    <!--
+    Home Slider
+    ==================================== -->
+
+    <section id="home-slider">
+        <div id="slider" class="sl-slider-wrapper">
+
+            <div class="sl-slider">
+                <div class="sl-slide">
+                    <div class="bg-img bg-img-1"></div>
+                    <div class="slide-caption">
+                        <div class="caption-content">
+                            <h2 class="animated fadeInDown">Bla Bla Halı Saha</h2>
+                            <span class="animated fadeInDown">Kütahya'nın en iyisi</span>
+                            <a href="#portfolio" class="btn btn-blue btn-effect">Rezervasyon yapın</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /slider-wrapper -->
+    </section>
+
+    <!--
+    End Home SliderEnd
+    ==================================== -->
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow animated fadeInRight">
+                    <div class="welcome-block">
+                        <h3>Sitemize Hoşgeldiniz</h3>
+                        <div class="message-body">
+                            <img src="~/Content/img/member-1.jpg" class="pull-left" alt="member">
+                            <p>Web sitemiz üzerinden hemen halı saha rezervasyonunuzu yapabilir veya sayfanın altında bulunan numaradan bize ulaşabilirsiniz.</p>
+                        </div>
+                        <a href="#contact" class="btn btn-border btn-effect pull-right">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+    <!-- portfolio section -->
+    <section id="portfolio" style="margin-bottom: 200px">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center wow animated fadeInDown">
+                    <h2>Rezervasyon</h2>
+                    <p>Hemen rezervasyon yapmak için form oluşturabilirsiniz</p>
+                    <br />
+                    <div class='input-group date' id='Mypicker'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                    <br />
+                    <button type="button" class="btn btn-blue btn-effect2" id="Sorgula">Sorgula</button>
+                </div>
+            </div>
+            <br />
+            <div id="sonuc">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="tab text-center col-lg-offset-1 col-md-offset-1 col-sm-offset-1" role="tabpanel">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" onclick="degistir(1)" class="active"><a id="first" href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Saha 1</a></li>
+                                    <li role="presentation" onclick="degistir(2)"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Saha 2</a></li>
+                                    <li role="presentation" onclick="degistir(3)"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Saha 3</a></li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content tabs">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="Section3">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- end portfolio section -->
+    <!-- Testimonial section -->
+
+    <section id="testimonials" class="parallax">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center wow animated fadeInDown">
+                        <h2>Sahalarımız</h2>
+                    </div>
+                    <ul class="project-wrapper wow animated fadeInUp">
+                        @for (int i = 1; i < 7; i++)
+                        {
+
+                            <li class="portfolio-item">
+                                <img src="@Url.Content("~/Content/UploadedImage/"+i+".jpg")" class="img-responsive" alt="Fotoğraf @i">
+
+                                <ul class="external">
+                                    <li><a class="fancybox" title="Saha" data-fancybox-group="works" href="@Url.Content("~/Content/UploadedImage/"+i+".jpg")"><i class="fa fa-search"></i></a></li>
+                                </ul>
+                            </li>
+
+                        }
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="google-map">
+        <div id="map-canvas" class="wow animated fadeInUp"></div>
+    </section>
+
+    <!-- end Testimonial section -->
+    <!-- Social section -->
+    <section id="social" class="parallax">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center white wow animated fadeInDown">
+                        <h2>Bizi Takip Edin</h2>
+                        <p>İndirim ve Kampanyalarımız için takipte kalın...</p>
+                    </div>
+
+                    <ul class="social-button">
+                        <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://www.youtube.com"><i class="fa fa-youtube fa-3x"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Social section -->
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="sec-title text-center wow animated fadeInDown">
+                    <h2>İletişim</h2>
+                    <p>Yorumlarınız bizim için önemli</p>
+                </div>
+
+
+                <div class="col-md-7 contact-form wow animated fadeInLeft">
+                    <form action="#" method="post">
+                        <div class="input-field">
+                            <input type="text" name="name" class="form-control" placeholder="İsminizi Yazın...">
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="email" class="form-control" placeholder="Mail Adresinizi Yazın...">
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="subject" class="form-control" placeholder="Konu Yazın...">
+                        </div>
+                        <div class="input-field">
+                            <textarea name="message" class="form-control" placeholder="Mesajınızı Yazın..."></textarea>
+                        </div>
+                        <button type="submit" id="submit" class="btn btn-blue btn-effect">Gönder</button>
+                    </form>
+                </div>
+
+                <div class="col-md-5 wow animated fadeInRight">
+                    <address class="contact-details">
+                        <h3>ıletişim bilgileri</h3>
+                        <p><i class="fa fa-pencil"></i>Bla bla halı saha<span>Adnan Menderes Bulvarı No:46/1</span> <span>Kütahya.</span></p><br>
+                        <p><i class="fa fa-phone"></i>+90 555 555 55 55</p>
+                        <p><i class="fa fa-envelope"></i>blablahalısaha@gmail.com</p>
+                    </address>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end Contact section -->
+
+</main>
+
+<div class="modal fade" id="RezerveModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Rezerve İşlemi</h4>
+            </div>
+            <form method="post" action="@Url.Action("RezerveEt")">
+                <div class="modal-body text-center">
+
+                    <div class="form-group">
+                        <label>Isim</label>
+                        <input type="text" class="form-control m-auto" name="musteriAd">
+                    </div>
+                    <div class="form-group text-center">
+                        <label>Soyad</label>
+                        <input type="text" class="form-control m-auto" name="musteriSoyad">
+                    </div>
+                    <div class="form-group">
+                        <label>Telefon</label>
+                        <input type="tel" class="form-control m-auto" name="telefon">
+                    </div>
+                    <div class="form-group">
+                        <label >E-Posta</label>
+                        <input type="email" class="form-control m-auto" name="mail">
+                    </div>
+
+                    <input type="hidden" class="form-control" name="tarih" id="tarih">
+                    <input type="hidden" class="form-control" name="sahaId" id="sahaId">
+                    <input type="hidden" class="form-control" name="saat" id="saat">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                    <button type="submit" id="BtnRezerve" class="btn btn-primary">Rezerve Et</button>
+                </div>
+            </form>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+@section scripts
+{
+    <script src="~/Scripts/RezerveJs.js"></script>
+}
